@@ -40,9 +40,6 @@ public class MainActivity extends AppCompatActivity {
     int totalQuestions = 0;
     int rightAnswers = 0;
 
-    //Option variables
-    int optionSelect;
-
     public void random(){
         q1 = rand.nextInt(10) + 1;
         q2 = rand.nextInt(10) + 1;
